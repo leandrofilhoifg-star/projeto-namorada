@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgba(220, 19, 126, 0.866);
+}
+h1{
+    color:white;
+    background:  rgba(136, 44, 112);
+    border:5px dashed white;
+    border-radius:20px;
+    margin:20px 20px 20px 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size:30px;
+}
+h2{
+     color:white;
+     background:rgba(136, 44, 112);
+     border:5px dashed white;
+     border-radius:20px;
+     margin:20px 20px 20px 20px;
+     font-family: "Montserrat", sans-serif;
+     text-align:center;
+}
+p{
+     color:white;
+     margin-left:20px;
+     font-family: "Lato", sans-serif;
+     line-height:1.6;
+     letter-spacing:0.5px;
+}
+li{
+     color:white;
+     font-family: "Lato", sans-serif;
+     
+}
+.center{
+    text-align:center;
+
+}
+
+.list-card{
+    width:50%;
+    margin:20px auto;
+    padding:1%;
+    text-align:left;
+    background-color:rgb(136, 44, 112);
+}
+.botão{
+    margin:2px 10px 10px 10px;
+    background: rgba(136, 44, 112);
+    padding: 2px 10px 10px 10px;
+    text-decoration:none;
+    color:white;
+}
+.botão:hover{
+    background:rgba(255, 255, 255, 0.3);
+
+}
+
+.botão-2{
+    margin:px 5px 5px 5px;
+    background:rgba(136, 44,112);
+    padding: 10px 10px 10px 10px;
+    text-decoration:none;
+    color:white;
+}
+.botão-2:hover{
+    background:rgba(255, 255, 255, 0.3);
+}
+.botão-3{
+    margin:5px 5px 5px 5px;
+    background:rgba(136, 44,112);
+    padding:10px 10px 10px 10px;
+    text-decoration:none;
+    color:white;
+}
+.botão-3:hover{
+    background:rgba(255, 255, 255, 0.3);
+}
+
