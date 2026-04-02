@@ -44,7 +44,7 @@ li{
 .list-card{
     width:50%;
     margin:20px auto;
-    padding:1%;
+    padding:3%;
     text-align:left;
     background-color:rgb(136, 44, 112);
 }
@@ -80,4 +80,5 @@ li{
 .botão-3:hover{
     background:rgba(255, 255, 255, 0.3);
 }
+
 
