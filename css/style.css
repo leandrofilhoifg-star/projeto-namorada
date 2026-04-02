@@ -5,6 +5,7 @@
 
 body{
     background-color: rgba(220, 19, 126, 0.866);
+   
 }
 h1{
     color:white;
@@ -40,13 +41,21 @@ li{
     text-align:center;
 
 }
+.video-apresentação{
+    width:100%;
+    max-width:350px;
+    height:auto;
+}
 
 .list-card{
-    width:50%;
+    width:90%;
+    max-width: 600px;
     margin:20px auto;
-    padding:5%;
+    padding:1%;
     text-align:left;
     background-color:rgb(136, 44, 112);
+    border-radius: 5px;
+    border:5px solid black;
 }
 .botão{
     margin:2px 10px 10px 10px;
@@ -54,6 +63,8 @@ li{
     padding: 2px 10px 10px 10px;
     text-decoration:none;
     color:white;
+    border:5px double black;
+    border-radius:5px;
 }
 .botão:hover{
     background:rgba(255, 255, 255, 0.3);
@@ -61,14 +72,18 @@ li{
 }
 
 .botão-2{
-    margin:px 5px 5px 5px;
+    margin:5px 5px 5px 5px;
     background:rgba(136, 44,112);
     padding: 10px 10px 10px 10px;
     text-decoration:none;
     color:white;
+    border:5px double black;
+    border-radius:5px;
 }
 .botão-2:hover{
     background:rgba(255, 255, 255, 0.3);
+    border:5px double white;
+    
 }
 .botão-3{
     margin:5px 5px 5px 5px;
@@ -76,9 +91,18 @@ li{
     padding:10px 10px 10px 10px;
     text-decoration:none;
     color:white;
+    border:5px double black;
+    border-radius:5px;
 }
 .botão-3:hover{
     background:rgba(255, 255, 255, 0.3);
 }
-
+img.tops{
+    border:5px solid black;
+}
+img.hype{
+    border:5px solid black;
+    border-radius:5px;
+    display:inline;
+}
 
