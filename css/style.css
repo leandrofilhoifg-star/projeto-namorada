@@ -4,22 +4,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: rgba(220, 19, 126, 0.866);
+    width: auto;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    touch-action: pan-y;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(to bottom left, rgba(136, 44, 112), rgb(80,20,60) );
    
 }
 h1{
     color:white;
-    background:  rgba(136, 44, 112);
-    border:5px dashed white;
+    background: rgb(80,20,60);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+     box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
+    border:1px solid black;
     border-radius:20px;
-    margin:20px 20px 20px 20px;
+    margin:20px;
     font-family: "Montserrat", sans-serif;
     font-size:30px;
 }
 h2{
      color:white;
-     background:rgba(136, 44, 112);
-     border:5px dashed white;
+     background:rgb(80,20,60);
+     text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+     box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
+     border:1px solid black;
      border-radius:20px;
      margin:20px 20px 20px 20px;
      font-family: "Montserrat", sans-serif;
@@ -27,14 +37,34 @@ h2{
 }
 p{
      color:white;
-     margin-left:20px;
+     margin-left:25px;
+     margin-right:25px;
      font-family: "Lato", sans-serif;
      line-height:1.6;
      letter-spacing:0.5px;
+     text-align: justify;
+}
+.txt-central{
+    color:white;
+     margin-left:25px;
+     margin-right:25px;
+     font-family: "Lato", sans-serif;
+     line-height:1.6;
+     letter-spacing:0.5px;
+     text-align: center;
+}
+hr{
+    border:0;
+    height: 1px;
+    background-color: black;
+    width:65%;
+    margin: 10px auto;
+    opacity:0.5;
 }
 li{
      color:white;
      font-family: "Lato", sans-serif;
+     list-style-type: none;
      
 }
 .center{
@@ -45,6 +75,10 @@ li{
     width:100%;
     max-width:350px;
     height:auto;
+    border-radius: 20px;
+    border:1px solid black;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
+
 }
 
 .list-card{
@@ -53,56 +87,74 @@ li{
     margin:20px auto;
     padding:1%;
     text-align:left;
-    background-color:rgb(136, 44, 112);
-    border-radius: 5px;
-    border:5px solid black;
+    background-color:rgb(80,20,60);
+    border-radius: 20px;
+    border:1px solid black;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
+   
 }
 .botão{
-    margin:2px 10px 10px 10px;
+    margin:5px 5px 5px 5px;
     background: rgba(136, 44, 112);
-    padding: 2px 10px 10px 10px;
+    padding: 5px 10px 10px 10px;
     text-decoration:none;
+    font-family: "Lato", sans-serif;
     color:white;
     border:5px double black;
-    border-radius:5px;
+    border-radius:20px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+     box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
 }
 .botão:hover{
     background:rgba(255, 255, 255, 0.3);
+    border:5px double white;
 
 }
 
 .botão-2{
     margin:5px 5px 5px 5px;
     background:rgba(136, 44,112);
-    padding: 10px 10px 10px 10px;
+    padding: 5px 10px 10px 10px;
     text-decoration:none;
+    font-family: "Lato", sans-serif;
     color:white;
     border:5px double black;
-    border-radius:5px;
+    border-radius:20px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+     box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
+    
 }
 .botão-2:hover{
     background:rgba(255, 255, 255, 0.3);
     border:5px double white;
     
+    
 }
 .botão-3{
     margin:5px 5px 5px 5px;
     background:rgba(136, 44,112);
-    padding:10px 10px 10px 10px;
+    padding:5px 10px 10px 10px;
     text-decoration:none;
+    font-family: "Lato", sans-serif;
     color:white;
     border:5px double black;
-    border-radius:5px;
+    border-radius:20px;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
+     box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
 }
 .botão-3:hover{
     background:rgba(255, 255, 255, 0.3);
+    border:5px double white;
 }
 img.tops{
-    border:5px solid black;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
 }
 img.hype{
-    border:5px solid black;
-    border-radius:5px;
+    border:1px solid black;
+    border-radius:10px;
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,0.2), 0px 6px 20px 0px rgb(0,0,0,0.19) ;
     display:inline;
 }
 
